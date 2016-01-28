@@ -1,0 +1,154 @@
+body{
+	margin: 0;
+}
+
+#header{
+	background-color:#343945;
+	padding:1%;
+}
+
+h1{
+   color:blue;
+}
+
+#middlerow2{
+	 background-color:#3399FF;
+	 padding:2%;
+}
+
+
+
+#bottomrow2{
+	background-color:#66CC33;
+	padding:5%;
+}
+
+.img-responsive{
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+
+@font-face {
+	font-family: Roboto-Regular;
+	src: url(Roboto-Regular.ttf);
+}
+
+@font-face {
+	font-family: Bondoluo-Peek;
+	src: url(BondoluoPeek.ttf);
+}
+
+
+/*@media (max-width: 2400px) {
+
+   h3{ 
+   	font-size:50px !important;
+   	color:white;
+   	text-align:left;
+   	font-family:Roboto-Regular;
+     }
+
+}
+
+@media (max-width: 2000px) {
+
+   h3{ 
+   	font-size:45px !important;
+   	color:white;
+   	text-align:left;
+   	font-family:Roboto-Regular;
+     }
+
+}
+
+
+@media (max-width: 1830px) {
+
+   h3{ 
+   	font-size:40px !important;
+   	color:white;
+   	text-align:left;
+   	font-family:Roboto-Regular;
+     }
+
+}
+
+@media (max-width: 1600px) {
+
+   h3{ 
+   	font-size:35px !important;
+   	color:white;
+   	text-align:left;
+   	font-family:Roboto-Regular;
+     }
+
+}
+*/
+
+
+h3{ 
+   	font-size:80px !important;
+   	color:white;
+   	text-align:left;
+   	font-family: Bondoluo-Peek;
+     }
+
+@media (max-width: 1400px) {
+
+   h3{ 
+   	font-size:50px !important;
+   	color:white;
+   	text-align:left;
+   	font-family:Bondoluo-Peek;
+     }
+
+}
+
+
+
+@media (max-width: 1230px) {
+
+   h3{ 
+   	font-size:40px !important;
+   	color:white;
+   	text-align:left;
+   	font-family:Bondoluo-Peek;
+     }
+
+}
+
+@media (max-width: 1024px) {
+
+   h3{ 
+   	font-size:30px !important;
+   	color:white;
+   	text-align:left;
+   	font-family:Bondoluo-Peek;
+     }
+
+}
+
+@media (max-width: 760px) {
+
+   h3{ 
+   	font-size:20px !important;
+   	color:white;
+   	text-align:left;
+   	font-family:Bondoluo-Peek;
+     }
+
+}
+
+
+@media (max-width: 320px) {
+
+   h3{ 
+   	font-size:10px !important;
+   	font-color:white;
+   	text-align:left;
+   	font-family:Bondoluo-Peek;
+    }
+
+}

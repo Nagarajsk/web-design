@@ -1,0 +1,127 @@
+body{
+  background-color:lightgray;
+}
+
+/*.checkmark {
+    display:inline-block;
+    width: 22px;
+    height:22px;
+    -ms-transform: rotate(45deg);  IE 9
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera 
+    text-transform: rotate(45deg);
+
+}*/
+/*.checkmark_circle {
+    position: absolute;
+    width:22px;
+    height:22px;
+    background-color: orange;
+    border-radius:11px;
+    left:0;
+    top:0;
+}*/
+
+/*.checkmark_stem {
+    position: absolute;
+    width:3px;
+    height:9px;
+    background-color:#fff;
+    left:11px;
+    top:6px;
+}
+
+.checkmark_kick {
+    position: absolute;
+    width:3px;
+    height:3px;
+    background-color:#fff;
+    left:8px;
+    top:12px;
+}*/
+
+/*.btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 50%;
+}
+*/
+/*.add-check .active:before {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 100;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\e013";
+    color: white;
+}
+
+.btn-circle-micro {
+  width: 19px;
+  height: 19px;
+  text-align: center;
+  padding: 1px 0;
+  font-size: 13px;
+  line-height: 0.1;
+  border-radius: 30px;
+}
+
+#over:hover{
+border-color: orange;
+background-color: gray;
+}
+*/
+
+/*#option4:hover{
+content: url('images2/radio_over.png');
+background-repeat: no-repeat;
+background-position: center;
+}
+*//*body{color:blue;font:100%/1.4 sans-serif;}*/
+
+
+/* CUSTOM RADIO
+   http://stackoverflow.com/a/17541916/383904 */
+/*.rad{
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+}*/
+.rad > input{ /* HIDE ORG RADIO */
+  visibility: hidden;
+  position: absolute;
+}
+/* RADIO STYLES */
+.rad > i{     /* DEFAULT <i> STYLE */
+  display: inline-block;
+  vertical-align: middle;
+  width:  16px;
+  height: 16px;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 9px #fff;
+  border: 0px solid orange;
+  background: gray;
+  padding: 3px;
+}
+
+.rad:hover > i{ /* HOVER <i> STYLE */
+  border-radius: inset 0 0 0 3px #fff;
+  background: white;
+  border-color: orange;
+  border-width: 2px;
+
+}
+.rad > input:checked + i{ /* (RADIO CHECKED) <i> STYLE*/ 
+  box-shadow: inset 0 0 0 0px #fff;
+  background: url('images2/tick.png');
+  border-height:0px;
+  background-position: center;
+}

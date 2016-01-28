@@ -1,0 +1,157 @@
+body{
+	margin: 0;
+}
+
+#header{
+	background-color:#343945;
+	padding:3%;
+}
+
+#middlerow1{
+	background-color:#FFFFFF;
+	padding: 4%;
+}
+h1{
+   color:#69B4FF;
+   font-family: Bondoluo-peek;
+   font-size: 50px;
+}
+#bottomrow1{
+	background-color:#66CC33;
+	padding:5%;
+}
+
+img{
+	max-width: 100%;
+	height: 0 auto;
+	display: block;
+}
+p{
+	color:#FFFFFF;
+	font-family: Roboto-Bold;
+	line-height: 25px;
+	font-size: 16px;
+
+}
+
+
+@font-face {
+  font-family: Roboto-Regular;
+  src: url(Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: Roboto-Bold;
+  src: url(ROBOTO-BOLD.TTF.png);
+}
+
+@font-face {
+  font-family: Bondoluo-Peek;
+  src: url(BondoluoPeek.ttf);
+}
+
+
+@media (max-width: 1400px){
+	h1{
+		color:#69B4FF;
+   font-family: Bondoluo-peek;
+   font-size: 50px;
+	}
+
+	p{
+		color:#FFFFFF;
+		font-family: Roboto-Bold;
+		line-height: 25px;
+		font-size: 18px;
+	}
+}
+
+@media (max-width: 1300px){
+	h1{
+		color:#69B4FF;
+   font-family: Bondoluo-peek;
+   font-size: 45px;
+	}
+
+	p{
+		color:#FFFFFF;
+		font-family: Roboto-Bold;
+		line-height: 25px;
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 1200px){
+	h1{
+		color:#69B4FF;
+   font-family: Bondoluo-peek;
+   font-size: 40px;
+	}
+
+	p{
+		color:#FFFFFF;
+		font-family: Roboto-Bold;
+		line-height: 25px;
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 1050px){
+	h1{
+		color:#69B4FF;
+   font-family: Bondoluo-peek;
+   font-size: 35px;
+	}
+
+	p{
+		color:#FFFFFF;
+		font-family: Roboto-Bold;
+		line-height: 25px;
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 900px){
+	h1{
+		color:#69B4FF;
+   font-family: Bondoluo-peek;
+   font-size: 30px;
+	}
+
+	p{
+		color:#FFFFFF;
+		font-family: Roboto-Bold;
+		line-height: 25px;
+		font-size: 10px;
+	}
+}
+
+@media (max-width: 800px){
+	h1{
+		color:#69B4FF;
+   font-family: Bondoluo-peek;
+   font-size: 25px;
+	}
+
+	p{
+		color:#FFFFFF;
+		font-family: Roboto-Bold;
+		line-height: 25px;
+		font-size: 10px;
+	}
+}
+
+@media (max-width: 700px){
+	h1{
+		color:#69B4FF;
+   font-family: Bondoluo-peek;
+   font-size: 25px;
+	}
+
+	p{
+		color:#FFFFFF;
+		font-family: Roboto-Bold;
+		line-height: 25px;
+		font-size: 10px;
+	}
+}
