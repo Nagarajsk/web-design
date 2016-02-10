@@ -1,15 +1,112 @@
+.develop{
+  position: relative;
+  background: url(images2/home_2_development_wo_text.png);
+  width: 434px;
+  height: 212px;
+}
+.right, .msg, .message{
+  position: relative;
+  width: 120px;
+  left:20em;
+  top: 2em;
+  font-family: Roboto-Bold;
+}
+.growth{
+  position: relative;
+  background: url(images2/home_2_growth_wo_text.png);
+  width: 434px;
+  height: 212px;
+}
+
+.design{
+  position: relative;
+  background: url(images2/home_2_designing_wo_text.png);
+  width: 434px;
+  height: 212px;
+}
+
+
+#in{
+  color:#6A6E77;
+  font-size:25px;
+  line-height: 50px;
+}
+
+
+
+
+
 body{
 	margin: 0;
 }
 
-#header{
-	background-color:#343945;
-	padding:1%;
+.navbar{
+  background-color:#94C7FA;
 }
 
-h1{
-   color:blue;
+.navbar-default{
+  margin: auto;
+  border-color: #94C7FA;
+ }
+/*#request{
+  width: 97px;
+  height: 35px;
+  text-align:center;
+  font-size: 11px;
+  font-family: Roboto-Regular;
+  color: #FEFEFE !important;
 }
+#request:hover{
+  color: gray !important;
+}*/
+ul.nav a { color: #67B2FD !important;font-family: Roboto-Regular; font-weight:bold;}
+ul.nav a:hover { color: lightgreen  !important; }
+
+ul.nav p { color:#FFFFFF !important; font-family: Roboto-Bold; }
+ul.nav p:hover{
+  color: gray !important;
+}
+
+.navbar-brand{
+  padding: 0px;
+}
+
+.navbar-brand img{
+  margin-top: 4px;
+  margin-left: 5px;
+}
+#logo{
+  width:163px;
+  height:71px;
+  margin-left: 10px;
+  margin-top: 15px;
+  }
+
+#base {
+  background: #FF9933;
+  display: block;
+  height: 92px;
+  margin-left: 15px;
+  margin-right: 20px;
+  position: relative;
+  width: 140px;
+  font-family: Roboto-Bold;
+  color:white; 
+  text-align:center;
+ }
+#base:before {
+  border-top: 16px solid #FF9933;
+  border-left: 70px solid transparent;
+  border-right: 70px solid transparent;
+  content: "";
+  height: 0;
+  left: 0;
+  position: absolute;
+  top: +92px;
+}
+
+
+
 
 #middlerow2{
 	 background-color:#3399FF;
@@ -23,11 +120,11 @@ h1{
 	padding:5%;
 }
 
-.img-responsive{
+/*.img-responsive{
 	max-width: 100%;
 	height: auto;
 	display: block;
-}
+}*/
 
 
 @font-face {
@@ -40,14 +137,529 @@ h1{
 	src: url(BondoluoPeek.ttf);
 }
 
+h3{ 
+   	font-size:70px !important;
+   	color:white;
+   	text-align:left;
+   	font-family: Bondoluo-Peek;
+     }
+
+@media (max-width: 1400px) {
+  #logo{
+  width:163px;
+  height:71px;
+  margin-left: 10px;
+  margin-top:15px;
+  }
+
+   h3{ 
+   	font-size:45px !important;
+   	color:white;
+   	text-align:left;
+   	font-family:Bondoluo-Peek;
+     }
+
+     .develop{
+  position: relative;
+  background: url(images2/home_2_development_wo_text.png);
+  width: 434px;
+  height: 212px;
+  margin-top:20px !important;
+}
+
+.growth{
+  position: relative;
+  background: url(images2/home_2_growth_wo_text.png);
+  width: 434px;
+  height: 212px;
+}
+
+.design{
+  position: relative;
+  background: url(images2/home_2_designing_wo_text.png);
+  width: 434px;
+  height: 212px;
+}
+
+.right, .msg, .message{
+  position: relative;
+  width: 120px;
+  left:20em;
+  top: 2em;
+  font-family: Roboto-Bold;
+}
+
+#in{
+  color:#6A6E77;
+  font-size:25px;
+  line-height: 50px;
+}
+
+}
+
+@media (max-width: 1300px) {
+  #logo{
+  width:160px;
+  height:68px;
+  margin-left: 10px;
+  margin-top:15px;
+  }
+  
+   h3{ 
+    font-size:40px !important;
+    color:white;
+    text-align:left;
+    font-family:Bondoluo-Peek;
+     }
+
+     /*.develop{
+  position: relative;
+  background: url(images2/home_2_development_wo_text.png);
+  width: 430px;
+  height: 210px;
+}
+
+.growth{
+  position: relative;
+  background: url(images2/home_2_growth_wo_text.png);
+  width: 430px;
+  height: 210px;
+}
+
+.design{
+  position: relative;
+  background: url(images2/home_2_designing_wo_text.png);
+  width: 430px;
+  height: 210px;
+}
+.right, .msg, .message{
+  position: relative;
+  width: 118px;
+  left:20em;
+  top: 2em;
+  font-family: Roboto-Bold;
+}
+
+#in{
+  color:#6A6E77;
+  font-size:20px;
+  line-height: 45px;
+}*/
+
+}
+
+
+@media (max-width: 1230px) {
+  #logo{
+  width:155px;
+  height:68px;
+  margin-left: 10px;
+  margin-top:15px;
+  }
+  h3{ 
+   	font-size:35px !important;
+   	color:white;
+   	text-align:left;
+   	font-family:Bondoluo-Peek;
+     }
+
+}
+
+@media (max-width: 1124px) {
+
+  #logo{
+  width:150px;
+  height:64px;
+  margin-left: 10px;
+  margin-top:20px;
+  }
+  h3{ 
+   	font-size:30px !important;
+   	color:white;
+   	text-align:left;
+   	font-family:Bondoluo-Peek;
+     }
+
+
+     .develop{
+  position: relative;
+  background: url(images2/home_2_development_wo_text.png);
+  width: 420px;
+  height: 200px;
+}
+
+.growth{
+  position: relative;
+  background: url(images2/home_2_growth_wo_text.png);
+  width: 420px;
+  height: 200px;
+}
+
+.design{
+  position: relative;
+  background: url(images2/home_2_designing_wo_text.png);
+  width: 420px;
+  height: 200px;
+}
+
+.right, .msg, .message{
+  position: relative;
+  width: 110px;
+  left:20em;
+  top: 2em;
+  font-family: Roboto-Bold;
+}
+
+#in{
+  color:#6A6E77;
+  font-size:18px;
+  line-height: 40px;
+}
+
+}
+
+@media (max-width: 1000px) {
+
+    #logo{
+  width:145px;
+  height:62px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+  h3{ 
+    font-size:25px !important;
+    color:white;
+    text-align:left;
+    font-family:Bondoluo-Peek;
+     }
+
+     .develop{
+  position: relative;
+  background: url(images2/home_2_development_wo_text.png);
+  width: 410px;
+  height: 190px;
+  margin-left: 25px !important;
+  margin-top: 30px !important;
+}
+
+.growth{
+  position: relative;
+  background: url(images2/home_2_growth_wo_text.png);
+  width: 410px;
+  height: 190px;
+}
+
+.design{
+  position: relative;
+  background: url(images2/home_2_designing_wo_text.png);
+  width: 410px;
+  height: 190px;
+  margin-left: 20px !important;
+}
+
+.right, .msg, .message{
+  position: relative;
+  width: 105px;
+  left:20em;
+  top: 2em;
+  font-family: Roboto-Bold;
+}
+
+#in{
+  color:#6A6E77;
+  font-size:18px;
+  line-height: 40px;
+}
+
+}
+
+@media (max-width: 900px) {
+  #logo{
+  width:140px;
+  height:60px;
+  margin-left: 10px;
+  margin-top:20px;
+  }
+   h3{ 
+    font-size:20px !important;
+    color:white;
+    text-align:left;
+    font-family:Bondoluo-Peek;
+     }
+
+          .develop{
+  position: relative;
+  background: url(images2/home_2_development_wo_text.png);
+  width: 370px;
+  height: 185px;
+  margin-left: 20px !important;
+  margin-top: 40px !important;
+}
+
+.growth{
+  position: relative;
+  background: url(images2/home_2_growth_wo_text.png);
+  width: 370px;
+  height: 185px;
+}
+
+.design{
+  position: relative;
+  background: url(images2/home_2_designing_wo_text.png);
+  width: 370px;
+  height: 185px;
+  margin-top: 0px !important;
+
+}
+
+.right, .msg, .message{
+  position: relative;
+  width: 100px;
+  left:20em;
+  top: 2em;
+  font-family: Roboto-Bold;
+}
+
+#in{
+  color:#6A6E77;
+  font-size:15px;
+  line-height: 40px;
+}
+}
+
+@media (max-width: 800px) {
+    #logo{
+  width:135px;
+  height:58px;
+  margin-left: 10px;
+  margin-top: 30px;
+}
+
+   h3{ 
+    font-size:18px !important;
+    color:white;
+    text-align:left;
+    font-family:Bondoluo-Peek;
+     }
+     .develop{
+  position: relative;
+  background: url(images2/home_2_development_wo_text.png);
+  width: 340px;
+  height: 175px;
+  margin-top: 50px !important;
+  margin-left: 20px !important;
+}
+.right, .msg, .message{
+  position: relative;
+  width: 95px;
+  left:19em;
+  top: 2em;
+  font-family: Roboto-Bold;
+}
+.growth{
+  position: relative;
+  background: url(images2/home_2_growth_wo_text.png);
+  width: 340px;
+  height: 175px;
+  margin-top: 20px !important;
+  margin-left: 18px !important;
+}
+
+.design{
+  position: relative;
+  background: url(images2/home_2_designing_wo_text.png);
+  width: 340px;
+  height: 175px;
+  margin-left: 18px !important;
+  margin-top: 20px !important;
+}
+
+
+#in{
+  color:#6A6E77;
+  font-size:12px;
+  line-height: 40px;
+}
+}
+
+@media (max-width: 768px) {
+  #logo{
+  width:81px;
+  height:35px;
+  margin-left: 10px;
+  margin-top:10px;
+  }
+  h3{ 
+   	font-size:16px !important;
+   	color:white;
+   	text-align:left;
+    font-weight: bold;
+    margin: 0 auto;
+   	font-family:Bondoluo-Peek;
+     }
+.develop{
+  position: relative;
+  background: url(images2/home_2_development_wo_text.png);
+  width: 340px;
+  height: 175px;
+  margin-left: 35px !important;
+}
+
+.growth{
+  position: relative;
+  background: url(images2/home_2_growth_wo_text.png);
+  width: 340px;
+  height: 175px;
+}
+
+.design{
+  position: relative;
+  background: url(images2/home_2_designing_wo_text.png);
+  width: 340px;
+  height: 175px;
+}
+
+.right, .msg, .message{
+  position: relative;
+  width: 90px;
+  left:20em;
+  top: 2em;
+  font-family: Roboto-Bold;
+}
+
+#in{
+  color:#6A6E77;
+  font-size:10px;
+  line-height: 40px;
+}
+}
+
+
+@media (max-width: 600px) {
+  #logo{
+  width:78px;
+  height:30px;
+  margin-left: 10px;
+  margin-top:15px;
+  }
+
+  h3{ 
+    font-size:14px !important;
+    color:white;
+    text-align:left;
+    font-weight: bold;
+    font-family:Bondoluo-Peek;
+     }
+.develop{
+  position: relative;
+  background: url(images2/home_2_development_wo_text.png);
+  width: 340px;
+  height: 175px;
+  margin-left: 31px !important;
+}
+
+.growth{
+  position: relative;
+  background: url(images2/home_2_growth_wo_text.png);
+  width: 340px;
+  height: 175px;
+}
+
+.design{
+  position: relative;
+  background: url(images2/home_2_designing_wo_text.png);
+  width: 340px;
+  height: 175px;
+}
+
+.right, .msg, .message{
+  position: relative;
+  width: 90px;
+  left:20em;
+  top: 2em;
+  font-family: Roboto-Bold;
+}
+
+#in{
+  color:#6A6E77;
+  font-size:10px;
+  line-height: 40px;"
+}
+}
+
+}
+
+@media (max-width: 500px) {
+   #logo{
+  width:40px;
+  height:17px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+  h3{ 
+    font-size:12px !important;
+    color:white;
+    text-align:center;
+    font-weight: bold;
+    font-family:Bondoluo-Peek;
+     }
+}
+
+@media (max-width: 400px) {
+  h3{ 
+    font-size:10px !important;
+    color:white;
+    text-align:center;
+    font-weight: bold;
+    font-family:Bondoluo-Peek;
+     }
+
+}
+
+@media (max-width: 300px) {
+
+   h3{ 
+    font-size:9px !important;
+    color:white;
+    text-align:center;
+    font-weight: bold;
+    font-family:Bondoluo-Peek;
+     }
+
+}
+
+
+
+@media (max-width: 220px) {
+
+   h3{ 
+   	font-size:8px !important;
+   	font-color:white;
+   	text-align:center;
+    font-weight: bold;
+   	font-family:Bondoluo-Peek;
+    }
+
+}
+
+@media (max-width: 100px) {
+  h3{ 
+    font-size:7px !important;
+    font-color:white;
+    text-align:center;
+    font-weight: bold;
+    font-family:Bondoluo-Peek;
+    }
+
+}
 
 /*@media (max-width: 2400px) {
 
    h3{ 
-   	font-size:50px !important;
-   	color:white;
-   	text-align:left;
-   	font-family:Roboto-Regular;
+    font-size:50px !important;
+    color:white;
+    text-align:left;
+    font-family:Roboto-Regular;
      }
 
 }
@@ -55,10 +667,10 @@ h1{
 @media (max-width: 2000px) {
 
    h3{ 
-   	font-size:45px !important;
-   	color:white;
-   	text-align:left;
-   	font-family:Roboto-Regular;
+    font-size:45px !important;
+    color:white;
+    text-align:left;
+    font-family:Roboto-Regular;
      }
 
 }
@@ -67,10 +679,10 @@ h1{
 @media (max-width: 1830px) {
 
    h3{ 
-   	font-size:40px !important;
-   	color:white;
-   	text-align:left;
-   	font-family:Roboto-Regular;
+    font-size:40px !important;
+    color:white;
+    text-align:left;
+    font-family:Roboto-Regular;
      }
 
 }
@@ -78,77 +690,11 @@ h1{
 @media (max-width: 1600px) {
 
    h3{ 
-   	font-size:35px !important;
-   	color:white;
-   	text-align:left;
-   	font-family:Roboto-Regular;
+    font-size:35px !important;
+    color:white;
+    text-align:left;
+    font-family:Roboto-Regular;
      }
 
 }
 */
-
-
-h3{ 
-   	font-size:80px !important;
-   	color:white;
-   	text-align:left;
-   	font-family: Bondoluo-Peek;
-     }
-
-@media (max-width: 1400px) {
-
-   h3{ 
-   	font-size:50px !important;
-   	color:white;
-   	text-align:left;
-   	font-family:Bondoluo-Peek;
-     }
-
-}
-
-
-
-@media (max-width: 1230px) {
-
-   h3{ 
-   	font-size:40px !important;
-   	color:white;
-   	text-align:left;
-   	font-family:Bondoluo-Peek;
-     }
-
-}
-
-@media (max-width: 1024px) {
-
-   h3{ 
-   	font-size:30px !important;
-   	color:white;
-   	text-align:left;
-   	font-family:Bondoluo-Peek;
-     }
-
-}
-
-@media (max-width: 760px) {
-
-   h3{ 
-   	font-size:20px !important;
-   	color:white;
-   	text-align:left;
-   	font-family:Bondoluo-Peek;
-     }
-
-}
-
-
-@media (max-width: 320px) {
-
-   h3{ 
-   	font-size:10px !important;
-   	font-color:white;
-   	text-align:left;
-   	font-family:Bondoluo-Peek;
-    }
-
-}

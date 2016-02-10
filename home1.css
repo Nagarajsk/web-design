@@ -1,25 +1,83 @@
 body{
 	margin: 0;
+	font-family: sans-serif;
+	min-width:768px !important;
+}
+.navbar-brand{
+  padding: 0px;
 }
 
-#header{
-	background-color:#343945;
-	padding:3%;
+.navbar-brand img{
+  margin-top: 4px;
+  margin-left: 5px;
 }
+#logo{
+	width:163px;
+	height:71px;
+	margin-left: 10px;
+	margin-top: 15px;
+	}
+
+
+/*#request{
+	width: 97px;
+	height: 35px;
+	text-align:center;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FEFEFE !important;
+}*/
+
+ul.nav a { color: #67B2FD !important;font-family: Roboto-Regular; font-weight:bold;}
+ul.nav a:hover { color: lightgreen  !important; }
+
+
+ul.nav p { color:#FFFFFF !important; font-family: Roboto-Bold; }
+ul.nav p:hover{
+	color: gray !important;
+}
+
+#base {
+  background: #FF9933;
+  display: block;
+  height: 92px;
+  margin-left: 15px;
+  margin-right: 20px;
+  position: relative;
+  width: 140px;
+  font-family: Roboto-Bold;
+  text-align:center;
+ }
+#base:before {
+  border-top: 12px solid #FF9933;
+  border-left: 70px solid transparent;
+  border-right: 70px solid transparent;
+  content: "";
+  height: 0;
+  left: 0;
+  position: absolute;
+  top: +92px;
+}
+
 
 #middlerow1{
 	background-color:#FFFFFF;
-	padding: 4%;
+	padding: 1%;
+	margin-top: 100px;
+	margin-left: 100px;
+	margin-bottom: 12px;
 }
 h1{
    color:#69B4FF;
    font-family: Bondoluo-peek;
-   font-size: 50px;
+   font-size: 60px;
+   margin-top:50px;
 }
 #bottomrow1{
 	background-color:#66CC33;
 	padding:5%;
 }
+
 
 img{
 	max-width: 100%;
@@ -52,10 +110,16 @@ p{
 
 
 @media (max-width: 1400px){
+	#logo{
+	width:163px;
+	height:71px;
+	margin-left: 10px;
+	margin-top: 15px;
+}
 	h1{
 		color:#69B4FF;
    font-family: Bondoluo-peek;
-   font-size: 50px;
+   font-size: 60px;
 	}
 
 	p{
@@ -67,10 +131,17 @@ p{
 }
 
 @media (max-width: 1300px){
+
+#logo{
+	width:160px;
+	height:68px;
+	margin-left: 10px;
+	margin-top: 15px;
+}
 	h1{
 		color:#69B4FF;
    font-family: Bondoluo-peek;
-   font-size: 45px;
+   font-size: 55px;
 	}
 
 	p{
@@ -82,10 +153,16 @@ p{
 }
 
 @media (max-width: 1200px){
+	#logo{
+	width:155px;
+	height:66px;
+	margin-left: 10px;
+	margin-top: 15px;
+}
 	h1{
 		color:#69B4FF;
    font-family: Bondoluo-peek;
-   font-size: 40px;
+   font-size: 50px;
 	}
 
 	p{
@@ -97,10 +174,16 @@ p{
 }
 
 @media (max-width: 1050px){
+	#logo{
+	width:150px;
+	height:64px;
+	margin-left: 10px;
+	margin-top: 15px;
+}
 	h1{
 		color:#69B4FF;
    font-family: Bondoluo-peek;
-   font-size: 35px;
+   font-size: 45px;
 	}
 
 	p{
@@ -112,10 +195,17 @@ p{
 }
 
 @media (max-width: 900px){
+	
+	#logo{
+	width:145px;
+	height:62px;
+	margin-left: 10px;
+	margin-top: 15px;
+}
 	h1{
 		color:#69B4FF;
    font-family: Bondoluo-peek;
-   font-size: 30px;
+   font-size: 40px;
 	}
 
 	p{
@@ -127,10 +217,38 @@ p{
 }
 
 @media (max-width: 800px){
+#logo{
+	width:140px;
+	height:60px;
+	margin-left: 10px;
+	margin-top: 15px;
+}	
 	h1{
 		color:#69B4FF;
    font-family: Bondoluo-peek;
-   font-size: 25px;
+   font-size: 35px;
+	}
+
+	p{
+		color:#FFFFFF;
+		font-family: Roboto-Bold;
+		line-height: 25px;
+		font-size: 10px;
+	}
+}
+
+@media (max-width: 768px){
+	#logo{
+	width:81px;
+	height:35px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+	h1{
+		color:#69B4FF;
+   font-family: Bondoluo-peek;
+   font-size: 30px;
+   margin-top: 8px;
 	}
 
 	p{
@@ -142,10 +260,17 @@ p{
 }
 
 @media (max-width: 700px){
+	#logo{
+	width:78px;
+	height:32px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
 	h1{
 		color:#69B4FF;
    font-family: Bondoluo-peek;
    font-size: 25px;
+   margin-top: 0px;
 	}
 
 	p{
@@ -155,3 +280,64 @@ p{
 		font-size: 10px;
 	}
 }
+
+/*@media (max-width: 500px){
+	h1{
+		color:#69B4FF;
+   font-family: Bondoluo-peek;
+   font-size: 20px;
+	}
+
+	p{
+		color:#FFFFFF;
+		font-family: Roboto-Bold;
+		line-height: 25px;
+		font-size: 10px;
+	}
+}
+
+@media (max-width: 400px){
+	h1{
+		color:#69B4FF;
+   font-family: Bondoluo-peek;
+   font-size: 20px;
+	}
+
+	p{
+		color:#FFFFFF;
+		font-family: Roboto-Bold;
+		line-height: 25px;
+		font-size: 10px;
+	}
+}
+
+@media (max-width: 300px){
+	
+	h1{
+		color:#69B4FF;
+   font-family: Bondoluo-peek;
+   font-size: 20px;
+	}
+
+	p{
+		color:#FFFFFF;
+		font-family: Roboto-Bold;
+		line-height: 25px;
+		font-size: 10px;
+	}
+}
+
+@media (max-width: 200px){
+	h1{
+		color:#69B4FF;
+   font-family: Bondoluo-peek;
+   font-size: 20px;
+	}
+
+	p{
+		color:#FFFFFF;
+		font-family: Roboto-Bold;
+		line-height: 25px;
+		font-size: 10px;
+	}
+}*/
