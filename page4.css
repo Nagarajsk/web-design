@@ -35,12 +35,12 @@ body{
 }
 
 #request{
-  width: 86px;
+  width: 80px;
   height: 35px;
   text-align:center;
-  font-size: 12px;
-  color: #FEFEFE !important;
-  font-family: ROBOTO-BOLD ;
+  font-size: 11px;
+  color:#E3E4E5;
+  font-family: Roboto-Regular;
 }
 
 
@@ -176,7 +176,7 @@ input[type=telephone].required::-webkit-input-placeholder:after{
   text-align:center;
   font-size: 20px !important;
   background-color:#FFA041;
-  font-family:ROBOTO-BOLD;
+  font-family:Roboto-Regular;
   color: white;
 }
 
@@ -259,7 +259,7 @@ input[type=telephone].required::-webkit-input-placeholder:after{
   text-align:center;
   font-size: 20px !important;
   background-color:#FFA041;
-  font-family: ROBOTO-BOLD;
+  font-family:Roboto-Regular;
   color: white;
 }
 #detail{
@@ -271,6 +271,7 @@ input[type=telephone].required::-webkit-input-placeholder:after{
 #butt3{ 
   margin-right:3%;
 }
+
 }
 
 
@@ -302,7 +303,7 @@ input[type=telephone].required::-webkit-input-placeholder:after{
   text-align:center;
   font-size: 18px !important;
   background-color:#FFA041;
-  font-family: ROBOTO-BOLD;
+  font-family: Roboto-Regular;
   color: white;
 }
 #detail{
@@ -343,7 +344,7 @@ input[type=telephone].required::-webkit-input-placeholder:after{
   text-align:center;
   font-size: 16px !important;
   background-color:#FFA041;
-  font-family:ROBOTO-BOLD;
+  font-family:Roboto-Regular;
   color: white;
 }
 #detail{
@@ -384,7 +385,7 @@ input[type=telephone].required::-webkit-input-placeholder:after{
   text-align:center;
   font-size:14px !important;
   background-color:#FFA041;
-  font-family: ROBOTO-BOLD;
+  font-family: Roboto-Regular;
   color: white;
 }
 #detail{
@@ -472,7 +473,7 @@ input[type=telephone].required::-webkit-input-placeholder:after{
   text-align:center;
   font-size: 10px !important;
   background-color:#FFA041;
-  font-family: ROBOTO-BOLD;
+  font-family: Roboto-Regular;
   color: white;
 }
 #detail{
@@ -513,7 +514,7 @@ input[type=telephone].required::-webkit-input-placeholder:after{
   text-align:center;
   font-size: 9px !important;
   background-color:#FFA041;
-  font-family: ROBOTO-BOLD;
+  font-family: Roboto-Regular;
   color: white;
 }
 #detail{
@@ -554,7 +555,7 @@ input[type=telephone].required::-webkit-input-placeholder:after{
   text-align:center;
   font-size: 9px !important;
   background-color:#FFA041;
-  font-family: ROBOTO-BOLD;
+  font-family: Roboto-Regular;
   color: white;
 }
 #detail{
@@ -587,7 +588,7 @@ input[type=telephone].required::-webkit-input-placeholder:after{
   text-align:center;
   font-size: 9px !important;
   background-color:#FFA041;
-  font-family: ROBOTO-BOLD;
+  font-family: Roboto-Regular;
   color: white;
 }
 #detail{
@@ -625,7 +626,7 @@ input[type=telephone].required::-webkit-input-placeholder:after{
   text-align:center;
   font-size: 9px !important;
   background-color:#FFA041;
-  font-family: ROBOTO-BOLD;
+  font-family: Roboto-Regular;
   color: white;
 }
 #detail{
@@ -654,7 +655,7 @@ input[type=telephone].required::-webkit-input-placeholder:after{
   text-align:center;
   font-size: 9px !important;
   background-color:#FFA041;
-  font-family: ROBOTO-BOLD;
+  font-family: Roboto-Regular;
   color: white;
 }
 #detail{
@@ -684,7 +685,7 @@ input[type=telephone].required::-webkit-input-placeholder:after{
   text-align:center;
   font-size: 9px !important;
   background-color:#FFA041;
-  font-family: ROBOTO-BOLD;
+  font-family: Robto-Regular;
   color: white;
 }
 #detail{
@@ -714,7 +715,7 @@ input[type=telephone].required::-webkit-input-placeholder:after{
   text-align:center;
   font-size: 9px !important;
   background-color:#FFA041;
-  font-family: ROBOTO-BOLD;
+  font-family: Roboto-Regular;
   color: white;
 }
 #detail{
@@ -747,7 +748,7 @@ input[type=telephone].required::-webkit-input-placeholder:after{
   text-align:center;
   font-size: 9px !important;
   background-color:#FFA041;
-  font-family: ROBOTO-BOLD;
+  font-family: Roboto-Regular;
   color: white;
 }
 #detail{
@@ -778,7 +779,7 @@ input[type=telephone].required::-webkit-input-placeholder:after{
   text-align:center;
   font-size: 9px !important;
   background-color:#FFA041;
-  font-family: ROBOTO-BOLD;
+  font-family: Roboto-Regular;
   color: white;
 }
 #detail{

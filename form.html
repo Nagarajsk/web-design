@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Form</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="form.css">
+  <style type="text/css">
+
+  .onclick-menu {
+    position: relative;
+    display: inline-block;
+    background: #FF9933;
+    margin-right: 30px;
+    text-align: center;
+    font-family: Roboto-Regular;
+    font-size: 12px;
+    margin-bottom: -180px
+}
+.onclick-menu:before {
+	
+	color:white;
+	margin-top: 15px !important;
+	content: "REQUEST A QUOTE";
+}
+
+#base {
+  background: #FF9933;
+  display: block;
+  height: 90px;
+  margin-left: 0;
+  margin-right: 20px;
+  position: relative;
+  width: 100px;
+  
+ }
+#base:before {
+  border-top: 10px solid #FF9933;
+  border-left: 65px solid transparent;
+  border-right:55px solid transparent;
+  content: "";
+  height: 0;
+  left: 0;
+  position: absolute;
+  top: +90px;
+}
+
+.onclick-menu:focus {
+    /* clicking on label should toggle the menu */
+    pointer-events: none;
+}
+.onclick-menu:focus .onclick-menu-content {
+    /*  opacity is 1 in opened state (see below) */
+    opacity: 1;
+    visibility: visible;
+
+    /* don't let pointer-events affect descendant elements */
+    pointer-events: auto;
+}
+.onclick-menu-content {
+    position: absolute;
+    z-index: 1;
+
+    /* use opacity to fake immediate toggle */
+    opacity: 0;
+    visibility: hidden;
+    transition: visibility 0.5s;
+}
+  </style>
+  </head>
+<body>
+	<div class="container-fluid" style="width:100%;">
+		<nav class="navbar navbar-default navbar-fixed-top" style="background:transparent;">
+			<div class="row" style="background-color:#DADBDE; height:25px;"><p style="margin-right:40px;text-align:right;font-family:sans-serif;;font-size:14px;color:#666666;">Call Us: +91-888-037-4442<p></div>
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">
+						<img src="images2/bitjini_apps_more_logo.png" id="logo"/>
+					</a>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav navbar-right" >
+
+						
+						<li><a href="#home" id="a1" style="margin-top:42px;font-size:10px;">Home</a></li>
+						<li><a href="#services" id="a2" style="margin-top:42px; font-size:10px;">Services</a></li>
+						<li><a href="http://bitjini.com/upcoming/blogs" style="margin-top:42px;font-size:10px;">Blog</a></li>
+						<li><a href="http://bitjini.com/upcoming/blogs" style="margin-top:42px;font-size:10px;">Contact</a></li>
+
+						<!-- <li>
+							<a href="http://bitjini.com/upcoming/blogs">
+								<button type="button" class="btn btn-default" style="background-color:orange;border-color:orange;border-radius:0px; font-size:12px; font-family:; font-weight:bold; text-align:left; color: #FEFEFE;width:120px; height:76px;"> REQUEST A QUOTE</button>
+							</a>
+						</li> -->
+						<!--<li><a style="background-color:#FF9933;margin-right:20px;" id="req" href="http://bitjini.com/upcoming/blogs">
+							<p id="request" style="text-align:center;">REQUEST A QUOTE</p></a></li> -->
+
+
+							<!-- <li class="shape" >
+								<a id="base" href="#"><p style="font-size:11px; margin-top:40px;">REQUEST A QUOTE</p></a>
+							</li> -->
+
+							<div tabindex="5" class="onclick-menu">
+								<li>
+								<a id="base" href="#"><!-- <p style="font-size:11px; margin-top:40px;">REQUEST A QUOTE</p> --></a>
+							</li>
+    <div class="onclick-menu-content">
+        <!-- <li><button onclick="alert('click 1')">Look, mom</button></li>
+        <li><button onclick="alert('click 2')">no JavaScript!</button></li>
+        <li><button onclick="alert('click 3')">Pretty nice, right?</button></li> -->
+
+        <div class="row" style="margin-top:20px;">
+
+			
+
+			<div class="" id="detail" style="background-color:#343945;"><!--  -->
+				<form action="" role="form-inline">
+					<div class="form-group">
+						<label class="control-label" for="name" style="color:white;"></label>
+						<input type="text" class="required form-control" placeholder="Name" id="name">
+					</div>
+					
+					<div class="form-group">
+						<label for="email" style="color:white;"></label>
+						<input type="email" class="required form-control" placeholder="Email" id="email">
+					</div>
+
+					<div class="form-group">
+						<label for="telephone" style="color:white;"></label>
+						<input type="telephone" class="required form-control" placeholder="Telephone" id="telephone">
+					</div>
+
+					<div class="form-group">
+						<label for="project" style="color:white;"></label>
+						<textarea class="form-control" placeholder="Project Description" rows="4" id="project"></textarea>
+					</div>
+				</form>
+				<br>
+
+				<div class="row">
+
+					<div class="col-xs-3">
+						<img src="images2/form_ios.png" class="img-responsive"><br>
+						<div class="add-check">
+							<label class="rad active">
+								<input type="radio" name="r1" value="a" checked="checked" />
+								<i></i>
+							</label>
+						</div>
+					</div>
+					
+					<div class="col-xs-3">
+						<img src="images2/form_android.png" class="img-responsive"><br>
+						<div>
+							<label class="rad">
+								<input type="radio" name="r1" value="b" />
+								<i></i>
+							</label>
+						</div>
+					</div>
+
+					<div class="col-xs-3">
+						<img src="images2/form_globe.png" class="img-responsive"><br>
+						<div>
+							<label class="rad">
+								<input type="radio" name="r1" value="c" />
+								<i></i>
+							</label>
+						</div>
+					</div>
+
+					<div class="col-xs-3">
+						<img src="images2/form_growth.png" class="img-responsive"><br>
+						<div>
+							<label class="rad">
+								<input type="radio" name="r1" value="d" />
+								<i></i>
+							</label>
+						</div>
+					</div>
+				</div><br>
+
+				<div class="row" id="butt3">
+					<button type="button" class="btn custom center-block">SUBMIT</button>
+				</div>
+				<br>
+			</div>
+		</div>
+    </div>
+</div>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		
+
+
+		
+
+		<div class="col-xs-4"  style="background-color:white;"></div>
+	</div>
+</body>
+</html>
